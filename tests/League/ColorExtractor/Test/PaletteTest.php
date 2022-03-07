@@ -5,8 +5,9 @@ namespace League\ColorExtractor\Test;
 use League\ColorExtractor\Color;
 use League\ColorExtractor\ColorExtractor;
 use League\ColorExtractor\Palette;
+use PHPUnit\Framework\TestCase;
 
-class PaletteTest extends \PHPUnit_Framework_TestCase
+class PaletteTest extends TestCase
 {
     protected $jpegPath = './tests/assets/test.jpeg';
     protected $gifPath = './tests/assets/test.gif';
